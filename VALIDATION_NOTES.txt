@@ -1,0 +1,7 @@
+Validation performed on the generated project files:
+- All XML, SDF and Xacro files parse successfully.
+- All Python files compile with Python 3.13 syntax checking.
+- YAML files parse successfully.
+- OpenCV QRCodeDetector successfully decoded all generated labels: 101, 102, 103, 104, 105, 106, 107, 108.
+- ROS/Gazebo runtime build was NOT performed in this container because ROS 2 / Gazebo executables are not installed here.
+- The supplied ZIP itself was inspected before modification.

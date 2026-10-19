@@ -1,0 +1,6 @@
+zones:
+  Zone_A: [-6.0, -5.0, 1.5708]
+  Zone_B: [0.0, -5.0, 1.5708]
+  Zone_C: [6.0, -5.0, 1.5708]
+  Charging_Station: [-6.0, -5.8, 1.5708]
+  Pickup_Loading_Zone: [0.0, -5.8, 1.5708]

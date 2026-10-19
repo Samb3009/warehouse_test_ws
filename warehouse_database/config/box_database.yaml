@@ -1,0 +1,56 @@
+boxes:
+  101:
+    priority: 3
+    destination: Zone_A
+    weight: 0.50
+    type: electronics
+    pickup_pose: [-6.0, 1.65, 1.5708]
+  102:
+    priority: 1
+    destination: Zone_B
+    weight: 0.60
+    type: general
+    pickup_pose: [-5.0, 1.65, 1.5708]
+  103:
+    priority: 5
+    destination: Zone_C
+    weight: 0.45
+    type: fragile
+    pickup_pose: [-4.0, 1.65, 1.5708]
+  104:
+    priority: 2
+    destination: Zone_A
+    weight: 0.55
+    type: spare_parts
+    pickup_pose: [-0.9, 1.65, 1.5708]
+  105:
+    priority: 4
+    destination: Zone_B
+    weight: 0.70
+    type: electronics
+    pickup_pose: [0.9, 1.65, 1.5708]
+  106:
+    priority: 2
+    destination: Zone_C
+    weight: 0.40
+    type: general
+    pickup_pose: [4.0, 1.65, 1.5708]
+  107:
+    priority: 1
+    destination: Zone_B
+    weight: 0.50
+    type: general
+    pickup_pose: [5.0, 1.65, 1.5708]
+  108:
+    priority: 4
+    destination: Zone_A
+    weight: 0.65
+    type: fragile
+    pickup_pose: [6.0, 1.65, 1.5708]
+
+destinations:
+  Zone_A: [-6.0, -5.0, 1.5708]
+  Zone_B: [0.0, -5.0, 1.5708]
+  Zone_C: [6.0, -5.0, 1.5708]
+  Charging_Station: [-6.0, -5.8, 1.5708]
+  Pickup_Loading_Zone: [0.0, -5.8, 1.5708]

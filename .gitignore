@@ -1,0 +1,23 @@
+# ROS 2 generated folders
+build/
+install/
+log/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and temporary files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Secrets
+.env
+
+# Generated TF visualization files
+frames_*.gv
+frames_*.pdf
